@@ -1,5 +1,7 @@
 # aws_glue_and_crawler
 
+The purpose of AWS Glue is to extract (E) data (S3 Buckets), transform (T) via Visual Edit, and then load it to SQL/Tableau (L).
+
 Made a web crawler via AWS, took the contents of the customers.csv, grabbed the orders.csv, and managed to pick up the entire schema which stopped us from manual entry as AWS did the rest in indentifying their data types (int,string).
 Used for large datasets.
 
